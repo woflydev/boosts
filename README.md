@@ -2,7 +2,8 @@
 
 ## cleaner-gh
 
-[<kbd> <br> Get it from Arc! <br> </kbd>][cleaner-gh]
+Version: 1.0.1
 
-[cleaner-gh]: asdfjlk 'Get it from Arc'
+[<kbd> <br> I want this! <br> </kbd>][cleaner-gh]
 
+[cleaner-gh]: https://arc.net/boost/1FF7C2DF-3C87-4252-8749-CD2235D920FF 'I want this!'
