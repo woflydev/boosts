@@ -1,16 +1,8 @@
 {
   "cleaner": {
-    "gh": {
-      "link": "https://arc.net/boost/1FF7C2DF-3C87-4252-8749-CD2235D920FF",
-      "version": "1.0.1"
-    },
-    "dm": {
-      "link": "https://arc.net/boost/1FF7C2DF-3C87-4252-8749-CD2235D920FF",
-      "version": "1.0.1"
-    },
-    "gd": {
-      "link": "https://arc.net/boost/1FF7C2DF-3C87-4252-8749-CD2235D920FF",
-      "version": "1.0.0"
+    "github": {
+      "link": "https://arc.net/boost/eofiwje",
+      "version": "1.0.3"
     }
   }
 }
