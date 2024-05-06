@@ -14,7 +14,10 @@ const addBoost = (key, link, version, boostData) => {
 
 const generateReadmeAndUpdateFile = (boostData) => {
   const readmeContent = `# Arc Boosts\n\n${Object.entries(boostData).map(([key, { link, version }]) => (
-    `## ${key}\n\nVersion: ${version}\n\n[<kbd> <br> ${'I want this!'} <br> </kbd>][${key}]\n\n[${key}]: ${link} 'I want this!'\n\n`
+    `
+      - ${key} v${version}: [<kbd> <br> ${'I want this!'} <br> </kbd>][${key}][${key}]: ${link} 'I want this!'
+      \n\n
+    `
   )).join('')}`;
   fs.writeFileSync('README.md', readmeContent, 'utf8');
   console.log(chalk.green('README file generated successfully!'));
