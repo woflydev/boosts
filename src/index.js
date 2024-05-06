@@ -12,7 +12,7 @@ function generateReadme(boostData) {
 
   for (const [key, link] of Object.entries(boostData)) {
     readmeContent += `## ${key}\n\n`;
-    readmeContent += `[<kbd> <br> ${key} <br> </kbd>][${key}]\n\n`;
+    readmeContent += `[<kbd> <br> ${key} <br> </kbd>][${`Download!`}]\n\n`;
     readmeContent += `[${key}]: ${link} 'Get it from Arc'\n\n`;
   }
 
