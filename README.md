@@ -9,7 +9,7 @@ A collection boosts I've made for Arc Browser. One-click install (provided you'r
 
 - github v1.0.3: [download](https://arc.net/boost/eofiwje)
 
-- gh v1.0.0: [download](https://arc.net/boost/weoij)
+- gh v1.0.1: [download](https://arc.net/boost/owiefoew)
 
 # About this Project
 
