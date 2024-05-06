@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs, { read } from 'fs';
 import path from 'path';
 import readline from 'readline';
 import chalk from 'chalk';
@@ -26,8 +26,9 @@ const saveChanges = (boostData, newBoosts) => {
 const generateReadmeAndUpdateFile = (boostData) => {
   let readmeContent = 
     `# Arc Boosts
-    \nA collection boosts I've made for Arc Browser. One-click install supported, provided you're on Arc, of course!
+    \nA collection boosts I've made for the [Arc Browser](https://arc.net/). One-click install supported, provided you're on Arc, of course!
     \n\n![](/doc/arc.webp)\n\n`;
+  readmeContent += "# Collections\n\n";
   for (const section in boostData) {
     readmeContent += `## ${section}\n\n`;
     for (const key in boostData[section]) {
@@ -171,7 +172,9 @@ const init = () => {
     }
     const newBoost = [[section, key, link, version]];
     saveChanges(boostData, newBoost);
-  } else console.error(chalk.red('Invalid command. Usage: node script.js [-a section key link version]'));
+  } 
+  else if (args[0] === '-s' && args.length === 1) generateReadmeAndUpdateFile(boostData);
+  else console.error(chalk.red('Invalid command. Usage: node script.js [-a section key link version]'));
 };
 
 init();

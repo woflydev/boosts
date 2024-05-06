@@ -1,9 +1,11 @@
 # Arc Boosts
     
-A collection boosts I've made for Arc Browser. One-click install supported, provided you're on Arc, of course!
+A collection boosts I've made for the [Arc Browser](https://arc.net/). One-click install supported, provided you're on Arc, of course!
     
 
 ![](/doc/arc.webp)
+
+# Collections
 
 ## cleaner
 
