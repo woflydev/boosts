@@ -14,7 +14,8 @@ const addBoost = (key, link, version, boostData) => {
 
 const generateReadmeAndUpdateFile = (boostData) => {
   const readmeContent = `# Arc Boosts\n\n${Object.entries(boostData).map(([key, { link, version }]) => (
-    `- ${key} v${version} [<kbd> <br> ${'I want this!'} <br> </kbd>][${key}]
+    `- ${key} v${version}
+      \n[<kbd> <br> ${'I want this!'} <br> </kbd>][${key}]
       \n[${key}]: ${link} 'I want this!'
       \n\n`
   )).join('')}`;
