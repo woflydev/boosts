@@ -27,7 +27,7 @@ const generateReadmeAndUpdateFile = (boostData) => {
   let readmeContent = 
     `# Arc Boosts
     \nA collection boosts I've made for Arc Browser. One-click install (provided you're on Arc, of course!)
-    \n\n![](https://preview.redd.it/better-arc-icon-v0-zyc0uyavfoia1.png?width=1024&format=png&auto=webp&s=0839060d82f15293308056a308008ae7d1295ae6)\n\n`;
+    \n\n![](/doc/icon.webp)\n\n`;
   for (const section in boostData) {
     readmeContent += `## ${section}\n\n`;
     for (const key in boostData[section]) {
