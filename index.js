@@ -8,15 +8,16 @@ const jsonFilePath = path.join(__dirname, 'arc-boosts.json');
 
 const isValidArcLink = (link) => /^https:\/\/arc\.net\/boost\/.+/.test(link);
 
-const addBoost = (section, key, link, version, boostData) => {
+const addBoost = (section, key, link, version, description, boostData) => {
   const updatedSectionData = { ...(boostData[section] || {}), [key]: { link, version } };
-  return { ...boostData, [section]: updatedSectionData };
+  const updatedSection = { description, ...updatedSectionData };
+  return { ...boostData, [section]: updatedSection };
 };
 
 const saveChanges = (boostData, newBoosts) => {
   let updatedBoostData = { ...boostData };
-  newBoosts.forEach(([section, key, link, version]) => {
-    updatedBoostData = addBoost(section, key, link, version, updatedBoostData);
+  newBoosts.forEach(([section, key, link, version, description]) => {
+    updatedBoostData = addBoost(section, key, link, version, description, updatedBoostData);
   });
   fs.writeFileSync(jsonFilePath, JSON.stringify(updatedBoostData, null, 2), 'utf8');
   generateReadmeAndUpdateFile(updatedBoostData);
@@ -28,12 +29,17 @@ const generateReadmeAndUpdateFile = (boostData) => {
     `# Arc Boosts
     \nA collection boosts I've made for the [Arc Browser](https://arc.net/). One-click install supported, provided you're on Arc, of course!
     \n\n![](/doc/arc.webp)\n\n`;
-  readmeContent += "# Collections\n\n";
+  readmeContent += 
+  "# Collections\n" + 
+  "Various collections of boosts that I feel like fit into a single category.\n\n";
   for (const section in boostData) {
-    readmeContent += `## ${section}\n\n`;
+    readmeContent += `## ${section}\n`;
+    readmeContent += `${boostData[section].description}\n\n`;
     for (const key in boostData[section]) {
-      const { link, version } = boostData[section][key];
-      readmeContent += `- ${key} v${version}: [download](${link})\n\n`;
+      if (key !== 'description') {
+        const { link, version } = boostData[section][key];
+        readmeContent += `- ${key} v${version}: [download](${link})\n\n`;
+      }
     }
   }
   readmeContent += 
@@ -174,6 +180,12 @@ const init = () => {
     saveChanges(boostData, newBoost);
   } 
   else if (args[0] === '-s' && args.length === 1) generateReadmeAndUpdateFile(boostData);
+  else if ((args[0] === '-h' || args[0] === '--help') && args.length === 1) 
+      console.log(chalk.blue(`Usage:
+      pnpm start [-a <section> <key> <link> <version>] to add a boost.
+      pnpm start [-s] to generate README.md
+      pnpm start [-h] or [--help] to display this message.
+      `));
   else console.error(chalk.red('Invalid command. Usage: node script.js [-a section key link version]'));
 };
 

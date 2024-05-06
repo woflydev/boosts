@@ -6,12 +6,16 @@ A collection boosts I've made for the [Arc Browser](https://arc.net/). One-click
 ![](/doc/arc.webp)
 
 # Collections
+Various collections of boosts that I feel like fit into a single category.
 
 ## cleaner
+A collection of boosts that focus on focus, productivity, and elegancy on several websites.
+Blocks a variety of distractions, including cookie popups, ads, and more.
+Aims to carry on the visual style of Arc to ensure a modern browsing experience.
 
 - github v1.0.4: [download](https://arc.net/boost/weoijfw)
 
-- gh v1.0.1: [download](https://arc.net/boost/owiefoew)
+- desmos v1.0.0: [download](https://arc.net/boost/woeijfweoij)
 
 # About this Project
 
