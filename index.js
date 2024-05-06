@@ -48,7 +48,10 @@ const generateReadmeAndUpdateFile = (boostData) => {
   "If you're interested in adding your own boosts," + 
   "`git clone` this repo and run `pnpm start`. Follow the instructions and you should be fine. \n\nShould I have spent a few hours of my life" + 
   "polishing this CLI and streamlining the entire publishing experience? Probably not." + 
-  "Look it's 12am and I'm so tired. Why spend 5 minutes doing something when you can spend 5 hours automating it.\n\n" + 
+  "Look it's 12am when I'm writing this and I'm so tired. Why spend 5 minutes doing something when you can spend 5 hours automating it.\n\n" + 
+  "So now be treated to some pretty website pictures so I don't feel like all my work has gone to waste." + 
+  `\n\n<p align="center">\n<img src="/doc/img1.png" alt="gh"/>\n</p>\n\n`
+  + `\n\n<p align="center">\n<img src="/doc/img2.png" alt="gh"/>\n</p>\n\n` + `\n\n<p align="center">\n<img src="/doc/img3.png" alt="gh"/>\n</p>\n\n` + `\n\n<p align="center">\n<img src="/doc/img4.png" alt="gh"/>\n</p>\n\n` + 
   "# What is Arc and Why am I Here??\n\n" +
   "Glad you asked! Download it from their site, you won't regret it! -> [Arc Browser](https://arc.net/gift/5a2737fa).";
   fs.writeFileSync('README.md', readmeContent, 'utf8');
