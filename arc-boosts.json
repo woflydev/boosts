@@ -1,13 +1,41 @@
 {
   "cleaner": {
-    "description": "A collection of boosts that focus on focus, productivity, and elegancy on several websites.\nBlocks a variety of distractions, including cookie popups, ads, and more.\nAims to carry on the visual style of Arc to ensure a modern browsing experience.",
+    "description": "A collection of boosts that focus on productivity and minimalism on several websites.\nBlocks a variety of distractions, including cookie popups, ads, and more by default.\nAims to carry on the visual style of Arc to ensure a modern browsing experience.",
     "github": {
-      "link": "https://arc.net/boost/weoijfw",
-      "version": "1.0.4"
+      "link": "https://arc.net/boost/4C55E5F0-AD9B-46C8-82AC-3D4B6D0A2EAE",
+      "version": "1.0.1"
     },
     "desmos": {
-      "link": "https://arc.net/boost/woeijfweoij",
+      "link": "https://arc.net/boost/985CA8A9-236C-4D4A-BB1E-33610B2B5C76",
       "version": "1.0.0"
+    },
+    "gmail": {
+      "link": "https://arc.net/boost/25E8278B-5CDD-4B94-91B2-6AE7D670B4A5",
+      "version": "1.0.0"
+    },
+    "youtube": {
+      "link": "https://arc.net/boost/5DE50F0C-A252-4EE5-BEF1-66BC00AC8CAD",
+      "version": "1.0.0"
+    },
+    "trello": {
+      "link": "https://arc.net/boost/252FD71B-68D0-4C65-8AF7-9BA3C3332B50",
+      "version": "1.0.0"
+    },
+    "reddit": {
+      "link": "https://arc.net/boost/031CCE2A-DE1F-4AFE-A219-2A8C5ECFCDB4",
+      "version": "1.0.0"
+    },
+    "twitter": {
+      "link": "https://arc.net/boost/271AB5A8-2A06-4195-9B1B-7A2A2D261D2A",
+      "version": "1.0.0"
+    },
+    "guardian": {
+      "link": "https://arc.net/boost/28D26DB8-8254-470A-8ACB-0754D6FF780E",
+      "version": "1.0.0"
+    },
+    "arc-resources": {
+      "link": "https://arc.net/boost/045EDB8A-2CE4-454C-B479-74D80EFA14E9",
+      "version": "1.0.1"
     }
   }
 }
