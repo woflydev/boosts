@@ -36,6 +36,14 @@
     "arc-resources": {
       "link": "https://arc.net/boost/045EDB8A-2CE4-454C-B479-74D80EFA14E9",
       "version": "1.0.1"
+    },
+    "abc-news": {
+      "link": "https://arc.net/boost/43747385-5A2D-417B-9411-51DE99A3D8A4",
+      "version": "1.0.0"
+    },
+    "email-on-deck": {
+      "link": "https://arc.net/boost/E0FAFA62-6405-4DF4-B1F7-0C9BACA82EDD",
+      "version": "1.0.0"
     }
   }
 }
