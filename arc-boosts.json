@@ -1,14 +1,6 @@
 {
   "cleaner": {
     "description": "A collection of boosts that focus on productivity and minimalism on several websites.\nBlocks a variety of distractions, including cookie popups, ads, and more by default so news sites no longer tell you to cLICK On ThE LaTeSt StoRy!1!1!!.\nAims to carry on the visual style of Arc to ensure a modern browsing experience.",
-    "googledotcom": {
-      "link": "https://arc.net/boost/85FF6B69-B39A-4AB4-97EF-7B6AE806CFF8",
-      "version": "1.0.3"
-    },
-    "chatgpt": {
-      "link": "https://arc.net/boost/EAF64AE2-7B4B-4E8D-978F-CEED728F0EA2",
-      "version": "1.0.0"
-    },
     "github": {
       "link": "https://arc.net/boost/4C55E5F0-AD9B-46C8-82AC-3D4B6D0A2EAE",
       "version": "1.0.1"
@@ -52,6 +44,17 @@
     "email-on-deck": {
       "link": "https://arc.net/boost/E0FAFA62-6405-4DF4-B1F7-0C9BACA82EDD",
       "version": "1.0.0"
+    }
+  },
+  "sandpaper": {
+    "description": "A collection of boosts that take inspiration from Arc's sandpaper theme. Made using an SVG texture. I briefly contemplated using the Arc CSS variables, but they proved to load slower and result in a janky website loading experience.",
+    "googledotcom": {
+      "link": "https://arc.net/boost/85FF6B69-B39A-4AB4-97EF-7B6AE806CFF8",
+      "version": "1.0.2"
+    },
+    "chatgpt": {
+      "link": "https://arc.net/boost/EAF64AE2-7B4B-4E8D-978F-CEED728F0EA2",
+      "version": "1.0.1"
     }
   }
 }
