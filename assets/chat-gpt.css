@@ -1,0 +1,11 @@
+#__next .flex-col .flex-col:has(.text-center) {
+    background-color: rgb(56, 36, 0);
+    background-image: 
+      url("https://raw.githubusercontent.com/woflydev/boosts/main/assets/noise.svg") !important;
+    
+    background-size: 40% !important;
+  }
+  
+  .text-token-text-primary > .text-base {
+    padding-top: 2rem !important;
+  }
