@@ -13,6 +13,10 @@ A collection of boosts that focus on productivity and minimalism on several webs
 Blocks a variety of distractions, including cookie popups, ads, and more by default so news sites no longer tell you to cLICK On ThE LaTeSt StoRy!1!1!!.
 Aims to carry on the visual style of Arc to ensure a modern browsing experience.
 
+- googledotcom v1.0.3: [download](https://arc.net/boost/85FF6B69-B39A-4AB4-97EF-7B6AE806CFF8)
+
+- chatgpt v1.0.0: [download](https://arc.net/boost/EAF64AE2-7B4B-4E8D-978F-CEED728F0EA2)
+
 - github v1.0.1: [download](https://arc.net/boost/4C55E5F0-AD9B-46C8-82AC-3D4B6D0A2EAE)
 
 - desmos v1.0.0: [download](https://arc.net/boost/985CA8A9-236C-4D4A-BB1E-33610B2B5C76)
@@ -32,6 +36,8 @@ Aims to carry on the visual style of Arc to ensure a modern browsing experience.
 - arc-resources v1.0.1: [download](https://arc.net/boost/045EDB8A-2CE4-454C-B479-74D80EFA14E9)
 
 - abc-news v1.0.0: [download](https://arc.net/boost/43747385-5A2D-417B-9411-51DE99A3D8A4)
+
+- email-on-deck v1.0.0: [download](https://arc.net/boost/E0FAFA62-6405-4DF4-B1F7-0C9BACA82EDD)
 
 # About this Project
 
