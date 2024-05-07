@@ -38,9 +38,9 @@ Aims to carry on the visual style of Arc to ensure a modern browsing experience.
 ## sandpaper
 A collection of boosts that take inspiration from Arc's sandpaper theme. Made using an SVG texture. I briefly contemplated using the Arc CSS variables, but they proved to load slower and result in a janky website loading experience.
 
-- googledotcom v1.0.2: [download](https://arc.net/boost/85FF6B69-B39A-4AB4-97EF-7B6AE806CFF8)
+- googledotcom v1.0.3: [download](https://arc.net/boost/3EA3C24D-CB2A-49CB-9E5E-F8D2D72F031F)
 
-- chatgpt v1.0.1: [download](https://arc.net/boost/EAF64AE2-7B4B-4E8D-978F-CEED728F0EA2)
+- chatgpt v1.0.2: [download](https://arc.net/boost/76A4D28D-CB6A-45B5-89CD-B2E3E5994D3C)
 
 
 
